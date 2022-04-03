@@ -111,7 +111,22 @@ p {
 }
 
 
+
 img{
     width: 40%;
-    border-radius: 20%;
-} 
+    max-width: 300px;
+    border: solid 2px #fff;
+    border-radius: 15px;
+    
+    animation: up-down 2s infinite ease-in-out alternate;
+
+  }
+  
+  @keyframes up-down{
+    from{
+      transform: translatey(0px);
+    }
+    to{
+      transform: translatey(-10px);
+    }
+  }
