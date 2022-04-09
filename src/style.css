@@ -67,7 +67,7 @@ span.linee{
 }
 
 .inner-header {
-  height:100px;
+  height:200px;
   width:100%;
   margin: 0;
   padding: 0;
@@ -93,15 +93,16 @@ span.linee{
   width: 100%;
   height:15px;
   margin-bottom:-5px; /*Fix for safari gap*/
-  min-height:180px;
+  min-height:200px;
   max-height:150px;
 }
 
 .content {
-  position:relative;
-  height:10vh;
+  position:static;
+  height:250px;
   text-align:center;
   background-color: white;
+
 }
 
 
@@ -161,10 +162,12 @@ img{
 
   }
   .bottom{
-    background-color: blue;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
 text-align: center;
 position: fixed;
+width: 100%;
 bottom: 0;
+
 
 
 
